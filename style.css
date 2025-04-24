@@ -1,0 +1,39 @@
+.people-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+  
+  .person {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .time {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .no-data {
+    text-align: center;
+    font-style: italic;
+    color: #999;
+    padding: 20px;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
